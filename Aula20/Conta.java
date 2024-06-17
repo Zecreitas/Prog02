@@ -17,6 +17,18 @@ public class Conta {
     private String geralidentificador(){
         return id;
     }
+    public String getId(){
+        return id;
+    }
+    public void setId(String id){
+        this.id = id;
+    }
+    public String getSenha(){
+        return senha;
+    }
+    public void setSenha(String senha){
+        this.senha= senha;
+    }
     public boolean validaAcesso(String id, String senha){
         if(this.id==id){
             if (this.senha==senha){
