@@ -1,7 +1,7 @@
 package Aula20;
 
 public class Conta {
-    private String titular;
+    String titular;
     private String id;
     protected float saldo;
     private String senha;
@@ -11,6 +11,8 @@ public class Conta {
         this.saldo = saldo;
         this.senha = senha;
     }
+
+
     public void depositar(float valor){
         this.saldo +=valor;
     }

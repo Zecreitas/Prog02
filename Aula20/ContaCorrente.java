@@ -18,7 +18,7 @@ public class ContaCorrente extends Conta{
         else
             return true;
     }
-    public String VereficaSalso(){
+    public String VereficaSaldo(){
         return ""+saldo;
     }
 
